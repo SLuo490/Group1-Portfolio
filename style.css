@@ -6,6 +6,7 @@
 
 body {
   background-color: #f1ede4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -46,7 +47,7 @@ a {
 }
 
 li a:hover {
-  background-color: #ddd;
+  background-color: #cc9775;
   color: black;
 }
 
@@ -70,4 +71,55 @@ footer a {
   color: #f1ede4;
   padding-left: 25px;
   padding-top: 15px;
+}
+
+/* ----------------------Content-------------------------- */
+
+.about-me {
+  width: 50%;
+  margin: 3rem;
+}
+
+.about-me h3 {
+  padding-bottom: 1rem;
+}
+
+.heading {
+  margin: 3rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.links button {
+  border: none;
+  padding: 7rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  display: inline-block;
+  border-radius: 5%;
+  border: 2px solid #2b2e33;
+  box-shadow: 10px 10px #cc9775;
+  transition: top ease 0.5s;
+  position: relative;
+  top: 0;
+}
+
+.links button a {
+  color: black;
+}
+
+.links button:hover {
+  top: -10px;
+  background-color: #2b2e33;
+  box-shadow: 10px 10px #814a37;
+}
+
+.links button:hover a {
+  color: #f1ede4;
 }
