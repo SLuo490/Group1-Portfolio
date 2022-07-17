@@ -191,6 +191,7 @@ footer a {
   border: 2px solid black; 
   width: 33%; 
   height: 15rem; 
+  overflow: hidden; 
 }
 
 .blog-container .day-heading {
@@ -204,8 +205,6 @@ footer a {
   margin-left: 8px; 
   text-align: center;
 }
-
-
 
 /*------------contact-------------------*/
 input[type=text], select, textarea {
