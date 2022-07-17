@@ -183,8 +183,29 @@ footer a {
 /* ----------------------Blogs-------------------------- */
 .blogs {
   display: flex; 
-  justify-content: space-evenly; 
+  justify-content: space-around;
+  align-items: center;
 }
+
+.blogs .day {
+  border: 2px solid black; 
+  width: 33%; 
+  height: 15rem; 
+}
+
+.blog-container .day-heading {
+  width: 53px; 
+  padding-bottom: 10px; 
+}
+
+.blog-container .blog-heading {
+  margin-top: 2rem; 
+  margin-bottom: 2rem; 
+  margin-left: 8px; 
+  text-align: center;
+}
+
+
 
 /*------------contact-------------------*/
 input[type=text], select, textarea {
